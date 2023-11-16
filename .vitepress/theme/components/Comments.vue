@@ -19,11 +19,11 @@ onContentUpdated(() => {
   // reset gittalk element for update
   deleteChild();
   const gitalk = new Gitalk({
-    clientID: "a8430bf8a0464113ee24",
-    clientSecret: "df4cbf03c4ceca8a39076e6b7a0fb878e55534e2",
-    repo: "blog-comments",
-    owner: "clark-cui",
-    admin: ["clark-cui"],
+    clientID: "3b121d6cf41380a75e2b",
+    clientSecret: "c78169dc4da14b037678246f8385c85690ee2dd8",
+    repo: "ve-blog-vitepress",
+    owner: "ve-weiyi",
+    admin: ["ve-weiyi"],
     id: location.pathname.substring(0, 50), // Ensure uniqueness and length less than 50
     language: "zh-CN",
     distractionFreeMode: true, // Facebook-like distraction free mode

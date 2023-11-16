@@ -1,7 +1,6 @@
 <template>
   <FireWorksAnimation />
   <ShareCard />
-  <h1 class="blog-title">Blogs</h1>
   <div class="blogList">
     <a class="blog" v-for="item in posts" :href="withBase(item.regularPath)">
       <div class="title">{{ item.frontMatter.title }}</div>
@@ -133,12 +132,6 @@ const transDate = (date: string) => {
 </script>
 
 <style scoped>
-.blog-title {
-  text-align: center;
-  font-weight: bold;
-  font-size: 2rem;
-  margin-top: 24px;
-}
 .blogList {
   padding: 30px 0;
   padding-bottom: 30px;

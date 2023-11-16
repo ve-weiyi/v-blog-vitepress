@@ -1,11 +1,12 @@
 <template>
   <div class="shareCard">
     <h1 class="title">
-      <span>Hi, I'm Clark Cui 👋</span>
+      <span>Hi, wellcome to my home 👋</span>
     </h1>
     <p class="description">
-      A frontend developer(he/him) who is building in web3.
+      页面开发中...(广告位招租)
     </p>
+    <h1 class="blog-title">标题</h1>
   </div>
 </template>
 
@@ -26,5 +27,11 @@
 }
 .description {
   margin: 1em 0;
+}
+.blog-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 24px;
 }
 </style>

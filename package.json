@@ -2,7 +2,7 @@
   "name": "viteDoc",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "clark-cui <cuirongchuan@163.com>",
+  "author": "ve-weiyi <791422171@qq.com>",
   "license": "MIT",
   "devDependencies": {
     "fast-glob": "^3.2.12",
@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "dayjs": "^1.11.7",
-    "gitalk": "^1.8.0"
+    "gitalk": "^1.8.0",
+    "vue": "^3.3.8"
   }
 }
