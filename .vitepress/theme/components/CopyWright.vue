@@ -1,13 +1,16 @@
 <template>
   <footer>
-    MIT Licensed | Copyright © 2021-{{ date }}
-    <a class="vitepress" href="https://github.com/ve-weiyi/">Vitepress</a><br/>
-    Powered by <a href="https://github.com/ve-weiyi/" target="_blank" title="作者">ve-weiyi</a>
-    Theme by <a class="vitepress" target="_blank" href="//github.com/airene/vitepress-blog-pure">Vitepress-blog</a>
+    Copyright © 2022-{{ date }} <a class="copyright" href="https://veweiyi.cn" target="_blank">veweiyi.cn</a>
+    . All rights Reserved.
+    <br/>
+    ICP备案/许可证号: <a class="copyright" href="https://beian.miit.gov.cn/" target="_blank">{{ IPC }}</a>
+    <br/>
+    MIT Licensed | Powered by <a href="https://github.com/ve-weiyi/" target="_blank" title="作者">ve-weiyi</a>
   </footer>
 </template>
 <script lang="ts" setup>
 const date = new Date().getFullYear();
+const IPC = "桂ICP备2023013735号-1"
 </script>
 <style scoped>
 footer {
@@ -18,9 +21,10 @@ footer {
   padding: 0 20px;
   background: var(--vp-c-bg);
   color: var(--vp-c-text);
+  font-size: 14px;
 }
 
-.vitepress {
+.copyright {
   color: var(--vp-c-text);
   font-weight: 700;
 }
