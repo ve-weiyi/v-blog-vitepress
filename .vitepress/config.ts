@@ -42,7 +42,7 @@ async function config() {
     themeConfig: {
       // repo: "clark-cui/homeSite",
       logo: "/horse.svg",
-      avator: "/avator.png",
+      avator: "/tiger.jpg",
       search: {
         provider: "local",
       },
@@ -54,7 +54,7 @@ async function config() {
       nav: [
         {
           text: "🏡Blogs",
-          link: "http://120.79.136.81/blog",
+          link: "/",
         },
         {
           text: "🔖Tags",
@@ -66,7 +66,7 @@ async function config() {
         },
         {
           text: "🔥RSS",
-          link: "/",
+          link: "https://veweiyi.cn/blog",
         },
       ],
       socialLinks: [

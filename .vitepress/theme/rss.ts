@@ -9,7 +9,7 @@ import { Feed } from "feed";
 const DOMAIN = "https://veweiyi.cn";
 const AUTHOR = {
   name: "ve-weiyi",
-  email: "ve7914@gmail.com",
+  email: "791422171@qq.com",
   link: DOMAIN,
 };
 const OPTIONS: FeedOptions = {
