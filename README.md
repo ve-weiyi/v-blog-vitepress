@@ -16,6 +16,8 @@ This is a blog theme used vitepress to build. You could [click here](https://vis
 - [x] RSS
 - [x] Local Search
 - [x] Math Equation(markdown-it-mathjax3)
+- [x] type information with jsdoc on code snippets (by https://shikiji.netlify.app/packages/markdown-it )
+
 ## Start
 
 ```shell
@@ -31,3 +33,7 @@ If you want to view rss result or use local search in development mode, you shou
 pnpm run build
 pnpm run serve
 ```
+## Announcement
+Due to my busy work, I don't have a lot of time to maintain this theme, and currently it's just an usual dependency upgrade.
+This theme is more suitable for developers with experience, you can fork my repository, custom modification.
+For users who don't know how to code, you may encounter problems and feel uncomfortable, I'm happy to help, but if I reply to the delay please forgive me.
